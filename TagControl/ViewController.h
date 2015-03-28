@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TagTextView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<TagTextViewDataSourceDelegate>
+
+@property (nonatomic, retain) IBOutlet TagTextView * tagView;
 
 
 @end

@@ -14,6 +14,7 @@
 		377C75D91A3FF87100E46628 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377C75D81A3FF87100E46628 /* Images.xcassets */; };
 		377C75DC1A3FF87100E46628 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C75DA1A3FF87100E46628 /* LaunchScreen.xib */; };
 		377C75E81A3FF87100E46628 /* TagControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C75E71A3FF87100E46628 /* TagControlTests.m */; };
+		377C75F41A3FF90800E46628 /* TagTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C75F31A3FF90800E46628 /* TagTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		377C75E11A3FF87100E46628 /* TagControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377C75E61A3FF87100E46628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377C75E71A3FF87100E46628 /* TagControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagControlTests.m; sourceTree = "<group>"; };
+		377C75F21A3FF90800E46628 /* TagTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTextView.h; sourceTree = "<group>"; };
+		377C75F31A3FF90800E46628 /* TagTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		377C75CA1A3FF87100E46628 /* TagControl */ = {
 			isa = PBXGroup;
 			children = (
+				377C75F11A3FF8E700E46628 /* TagTextView */,
 				377C75CF1A3FF87100E46628 /* AppDelegate.h */,
 				377C75D01A3FF87100E46628 /* AppDelegate.m */,
 				377C75D21A3FF87100E46628 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				377C75E61A3FF87100E46628 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		377C75F11A3FF8E700E46628 /* TagTextView */ = {
+			isa = PBXGroup;
+			children = (
+				377C75F21A3FF90800E46628 /* TagTextView.h */,
+				377C75F31A3FF90800E46628 /* TagTextView.m */,
+			);
+			name = TagTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377C75F41A3FF90800E46628 /* TagTextView.m in Sources */,
 				377C75D41A3FF87100E46628 /* ViewController.m in Sources */,
 				377C75D11A3FF87100E46628 /* AppDelegate.m in Sources */,
 				377C75CE1A3FF87100E46628 /* main.m in Sources */,
@@ -270,7 +284,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -311,7 +325,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -412,6 +426,7 @@
 				377C75ED1A3FF87100E46628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377C75EE1A3FF87100E46628 /* Build configuration list for PBXNativeTarget "TagControlTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				377C75F01A3FF87100E46628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
