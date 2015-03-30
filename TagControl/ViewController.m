@@ -20,11 +20,27 @@
     [super viewDidLoad];
 
     self.tagView.dataSourceDelegate = self;
-    self.tags = @[ @{KEY_TAGDATA_TITLE : @"Sanal K", KEY_TAGDATA_TAG : @"sanal"},
-                   @{KEY_TAGDATA_TITLE :  @"Nitheesh George", KEY_TAGDATA_TAG : @"nitheesh"},
-                   @{KEY_TAGDATA_TITLE : @"Harish K", KEY_TAGDATA_TAG : @"harish"},
-                   @{KEY_TAGDATA_TITLE : @"Sreeram K", KEY_TAGDATA_TAG : @"sreeram"},
-                   @{KEY_TAGDATA_TITLE : @"Shanu K", KEY_TAGDATA_TAG :  @"shanu"}];
+    self.tags = @[ @{KEY_TAGDATA_TITLE : @"John Smith", KEY_TAGDATA_TAG : @"johnsmith"},
+                   @{KEY_TAGDATA_TITLE :  @"Steve Jobs", KEY_TAGDATA_TAG : @"stevejobs"},
+                   @{KEY_TAGDATA_TITLE : @"Harry Potter", KEY_TAGDATA_TAG : @"potter"},
+                   @{KEY_TAGDATA_TITLE : @"Bill Gates", KEY_TAGDATA_TAG : @"billgates"},
+                   @{KEY_TAGDATA_TITLE : @"Mark Zuckerberg", KEY_TAGDATA_TAG :  @"zuckerberg"},
+                   @{KEY_TAGDATA_TITLE :  @"Steve wozniak", KEY_TAGDATA_TAG : @"wozniak"},
+                   @{KEY_TAGDATA_TITLE : @"Tim Cook", KEY_TAGDATA_TAG : @"cook"},
+                   @{KEY_TAGDATA_TITLE : @"Daniel Martin", KEY_TAGDATA_TAG : @"dmartin"},
+                   @{KEY_TAGDATA_TITLE : @"David Crook", KEY_TAGDATA_TAG :  @"crook"},
+                   @{KEY_TAGDATA_TITLE :  @"Samuel Nitheesh", KEY_TAGDATA_TAG : @"samuel"},
+                   @{KEY_TAGDATA_TITLE : @"Suzanne Nitheesh", KEY_TAGDATA_TAG : @"suzanne"},
+                   @{KEY_TAGDATA_TITLE : @"Stephan Hawking", KEY_TAGDATA_TAG : @"hawking"},
+                   @{KEY_TAGDATA_TITLE : @"Sara Tom", KEY_TAGDATA_TAG :  @"saratom"},
+                   @{KEY_TAGDATA_TITLE :  @"Sonal Nigam", KEY_TAGDATA_TAG : @"sonal"},
+                   @{KEY_TAGDATA_TITLE : @"Stephan Dias", KEY_TAGDATA_TAG : @"dias"},
+                   @{KEY_TAGDATA_TITLE : @"Stella Moris", KEY_TAGDATA_TAG : @"setallamoris"},
+                   @{KEY_TAGDATA_TITLE : @"Saniya Mirza", KEY_TAGDATA_TAG :  @"saniamirza"},
+                   @{KEY_TAGDATA_TITLE :  @"Sunny Deol", KEY_TAGDATA_TAG : @"sunnydeol"},
+                   @{KEY_TAGDATA_TITLE : @"Steven Sunny", KEY_TAGDATA_TAG : @"ssunny"},
+                   @{KEY_TAGDATA_TITLE : @"Samson Vincent", KEY_TAGDATA_TAG : @"svincent"},
+                   @{KEY_TAGDATA_TITLE : @"Sagar Alias Jacky", KEY_TAGDATA_TAG :  @"@jacky"}];
     
 }
 
@@ -36,15 +52,6 @@
 - (NSArray *) tagsForFilter:(NSString *)aFilter
 {
     NSPredicate *bPredicate = [NSPredicate predicateWithFormat:@"(title beginswith[cd] %@) OR (tag beginswith[cd] %@)", aFilter, aFilter];
-    
- NSDictionary * dic =  @{@"sanal": @{KEY_TAGDATA_TITLE : @"Sanal K", KEY_TAGDATA_TAG : @"sanal"},
-      @"Nitheesh" : @{KEY_TAGDATA_TITLE :  @"Nitheesh George", KEY_TAGDATA_TAG : @"nitheesh"},
-      @"Hasih": @{KEY_TAGDATA_TITLE : @"Harish K", KEY_TAGDATA_TAG : @"harish"},
-      @"Sreeram": @{KEY_TAGDATA_TITLE : @"Sreeram K", KEY_TAGDATA_TAG : @"sreeram"},
-      @"Shanu": @{KEY_TAGDATA_TITLE : @"Shanu K", KEY_TAGDATA_TAG :  @"shanu"}};
-    
- NSArray * arrays =  [[dic allValues] filteredArrayUsingPredicate:bPredicate];
-    
     NSArray *array = [self.tags filteredArrayUsingPredicate:bPredicate];
     return array;
 }
