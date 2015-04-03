@@ -14,8 +14,6 @@
 		<string>https://github.com/nitheeshbinolin/UserTagView.git</string>
 		<key>44b3b63d-d12c-4947-86c7-e827e8e760e0</key>
 		<string>https://subversion.assembla.com/svn/mypetprojects</string>
-		<key>44b3b63d-d12c-4947-86c7-e827e8e760e0++6144</key>
-		<string>https://subversion.assembla.com/svn/mypetprojects/trunk/TagControl</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TagControl.xcodeproj</string>
@@ -24,13 +22,11 @@
 		<key>36A287DFFEC57393AC67B5D0F6D6EC601DE23CFE</key>
 		<string>../..</string>
 		<key>44b3b63d-d12c-4947-86c7-e827e8e760e0</key>
-		<string>../../../..</string>
-		<key>44b3b63d-d12c-4947-86c7-e827e8e760e0++6144</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
-		<key>44b3b63d-d12c-4947-86c7-e827e8e760e0++6144</key>
+		<key>36A287DFFEC57393AC67B5D0F6D6EC601DE23CFE</key>
 		<string>https://subversion.assembla.com/svn/mypetprojects</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -38,7 +34,7 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>44b3b63d-d12c-4947-86c7-e827e8e760e0++6144</string>
+	<string>36A287DFFEC57393AC67B5D0F6D6EC601DE23CFE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -47,13 +43,13 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>44b3b63d-d12c-4947-86c7-e827e8e760e0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>..</string>
+			<string></string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>44b3b63d-d12c-4947-86c7-e827e8e760e0++6144</string>
+			<string>36A287DFFEC57393AC67B5D0F6D6EC601DE23CFE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TagControl</string>
 		</dict>

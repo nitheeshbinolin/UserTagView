@@ -12,12 +12,6 @@
 #define KEY_TAGDATA_ICON       (@"image")
 #define KEY_TAGDATA_TAG         (@"tag")
 
-/*typedef enum _TagListDisplayMode
-{
-    TagListDisplayModeTop =  0,
-    TagListDisplayModeBottom = 1,
-} TagListDisplayMode;*/
-
 @protocol TagTextViewDataSourceDelegate <NSObject>
 
 - (NSArray *) tagsForFilter:(NSString *)aFilter;
@@ -27,6 +21,7 @@
 @interface TagTextView : UITextView<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, assign) id<TagTextViewDataSourceDelegate> dataSourceDelegate;
+@property (nonatomic, strong) UIImage * defaultIProfileImage;
 
 - (NSArray *) getUserTags;
 - (NSArray *) getHashTags;

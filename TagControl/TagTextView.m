@@ -7,8 +7,9 @@
 //
 
 #import "TagTextView.h"
+#import "TagviewTableCell.h"
 
-#define IDENTIFIER_TAGS_CELL            (@"TagTextViewCell")
+#define CELL_HEIGHT                             (44.0f)
 
 static NSMutableDictionary * g_imageCache = nil;
 static NSDate * g_dateInit = nil;
@@ -310,8 +311,6 @@ static NSDate * g_dateInit = nil;
         return nil;
     
     NSError *error = nil;
-    
-    //NSRegularExpression *regx = [NSRegularExpression regularExpressionWithPattern:@"\\b[@#\\w]+\\b" options:NSRegularExpressionCaseInsensitive error:&error];
     NSRegularExpression *regx = [NSRegularExpression regularExpressionWithPattern:@"@(\\w+)" options:NSRegularExpressionCaseInsensitive error:&error];
     NSArray *matches = [regx matchesInString:aString options:0 range:NSMakeRange(0, aString.length)];
     
@@ -362,6 +361,7 @@ static NSDate * g_dateInit = nil;
     
     [tagListView release];
     [_searchString release];
+    [_defaultIProfileImage release];
     
     [super dealloc];
 }
@@ -390,7 +390,7 @@ static NSDate * g_dateInit = nil;
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 30.0;
+    return CELL_HEIGHT;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -405,21 +405,29 @@ static NSDate * g_dateInit = nil;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView1 cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell * cell = [tableView1 dequeueReusableCellWithIdentifier:IDENTIFIER_TAGS_CELL];
+    TagviewTableCell * cell = (TagviewTableCell *)[tableView1 dequeueReusableCellWithIdentifier:IDENTIFIER_TAGS_CELL];
     
     if(cell == nil)
     {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:IDENTIFIER_TAGS_CELL] autorelease];
+        cell =  (TagviewTableCell *)[[[NSBundle mainBundle] loadNibNamed:@"TagviewTableCell" owner:self options:nil] objectAtIndex:0];
+        //cell = [[[TagviewTableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:IDENTIFIER_TAGS_CELL] autorelease];
         
         if ([cell respondsToSelector:@selector(layoutMargins)])
             cell.layoutMargins = UIEdgeInsetsZero;
     }
     
-    cell.textLabel.text = [_data[indexPath.row] valueForKey:KEY_TAGDATA_TITLE];
+    cell.titleLabel.text = [_data[indexPath.row] valueForKey:KEY_TAGDATA_TITLE];
     NSString * strImageUrl = [_data[indexPath.row] valueForKey:KEY_TAGDATA_ICON];
     
-    if(strImageUrl)
-        [self setImage:strImageUrl inView:cell.imageView];
+    if(strImageUrl == nil && _defaultIProfileImage)
+        cell.imageView.image = _defaultIProfileImage;
+    else
+    {
+        if([strImageUrl hasPrefix:@"http"] == FALSE)
+            cell.imageView.image = [UIImage imageNamed:strImageUrl];
+        else if(strImageUrl)
+            [self setImage:strImageUrl inView:cell.imageView];
+    }
     
     return cell;
 }

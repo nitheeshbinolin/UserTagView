@@ -15,6 +15,24 @@
 		377C75DC1A3FF87100E46628 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C75DA1A3FF87100E46628 /* LaunchScreen.xib */; };
 		377C75E81A3FF87100E46628 /* TagControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C75E71A3FF87100E46628 /* TagControlTests.m */; };
 		377C75F41A3FF90800E46628 /* TagTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C75F31A3FF90800E46628 /* TagTextView.m */; };
+		6978BF3C1ACEE87B003AFA6E /* TagviewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6978BF3B1ACEE87B003AFA6E /* TagviewTableCell.m */; };
+		6978BF4E1ACEEA10003AFA6E /* Bill Gates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF3E1ACEEA10003AFA6E /* Bill Gates.jpg */; };
+		6978BF4F1ACEEA10003AFA6E /* Daniel Martin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF3F1ACEEA10003AFA6E /* Daniel Martin.jpg */; };
+		6978BF501ACEEA10003AFA6E /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF401ACEEA10003AFA6E /* default.jpg */; };
+		6978BF511ACEEA10003AFA6E /* Harry Potter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF411ACEEA10003AFA6E /* Harry Potter.jpg */; };
+		6978BF521ACEEA10003AFA6E /* JohnSmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF421ACEEA10003AFA6E /* JohnSmith.jpg */; };
+		6978BF531ACEEA10003AFA6E /* Mark Zuckerberg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF431ACEEA10003AFA6E /* Mark Zuckerberg.jpg */; };
+		6978BF541ACEEA10003AFA6E /* Samuel Nitheesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF441ACEEA10003AFA6E /* Samuel Nitheesh.jpg */; };
+		6978BF551ACEEA10003AFA6E /* Saniya Mirza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF451ACEEA10003AFA6E /* Saniya Mirza.jpg */; };
+		6978BF561ACEEA10003AFA6E /* Sara Tom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF461ACEEA10003AFA6E /* Sara Tom.jpg */; };
+		6978BF571ACEEA10003AFA6E /* Sonal Nigam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF471ACEEA10003AFA6E /* Sonal Nigam.jpg */; };
+		6978BF581ACEEA10003AFA6E /* Stephan Dias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF481ACEEA10003AFA6E /* Stephan Dias.jpg */; };
+		6978BF591ACEEA10003AFA6E /* Stephan Hawking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF491ACEEA10003AFA6E /* Stephan Hawking.jpg */; };
+		6978BF5A1ACEEA10003AFA6E /* Steve Jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF4A1ACEEA10003AFA6E /* Steve Jobs.jpg */; };
+		6978BF5B1ACEEA10003AFA6E /* Steve wozniak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF4B1ACEEA10003AFA6E /* Steve wozniak.jpg */; };
+		6978BF5D1ACEEA10003AFA6E /* Tim Cook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF4D1ACEEA10003AFA6E /* Tim Cook.jpg */; };
+		6978BF621ACEEDB1003AFA6E /* TagviewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF601ACEEDB1003AFA6E /* TagviewTableCell.xib */; };
+		6978BF641ACEF4D0003AFA6E /* Suzanne Nitheesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6978BF631ACEF4D0003AFA6E /* Suzanne Nitheesh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +61,25 @@
 		377C75E71A3FF87100E46628 /* TagControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagControlTests.m; sourceTree = "<group>"; };
 		377C75F21A3FF90800E46628 /* TagTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTextView.h; sourceTree = "<group>"; };
 		377C75F31A3FF90800E46628 /* TagTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTextView.m; sourceTree = "<group>"; };
+		6978BF3A1ACEE87B003AFA6E /* TagviewTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagviewTableCell.h; sourceTree = "<group>"; };
+		6978BF3B1ACEE87B003AFA6E /* TagviewTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagviewTableCell.m; sourceTree = "<group>"; };
+		6978BF3E1ACEEA10003AFA6E /* Bill Gates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bill Gates.jpg"; sourceTree = "<group>"; };
+		6978BF3F1ACEEA10003AFA6E /* Daniel Martin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Daniel Martin.jpg"; sourceTree = "<group>"; };
+		6978BF401ACEEA10003AFA6E /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		6978BF411ACEEA10003AFA6E /* Harry Potter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Harry Potter.jpg"; sourceTree = "<group>"; };
+		6978BF421ACEEA10003AFA6E /* JohnSmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JohnSmith.jpg; sourceTree = "<group>"; };
+		6978BF431ACEEA10003AFA6E /* Mark Zuckerberg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mark Zuckerberg.jpg"; sourceTree = "<group>"; };
+		6978BF441ACEEA10003AFA6E /* Samuel Nitheesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Samuel Nitheesh.jpg"; sourceTree = "<group>"; };
+		6978BF451ACEEA10003AFA6E /* Saniya Mirza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Saniya Mirza.jpg"; sourceTree = "<group>"; };
+		6978BF461ACEEA10003AFA6E /* Sara Tom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sara Tom.jpg"; sourceTree = "<group>"; };
+		6978BF471ACEEA10003AFA6E /* Sonal Nigam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sonal Nigam.jpg"; sourceTree = "<group>"; };
+		6978BF481ACEEA10003AFA6E /* Stephan Dias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stephan Dias.jpg"; sourceTree = "<group>"; };
+		6978BF491ACEEA10003AFA6E /* Stephan Hawking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stephan Hawking.jpg"; sourceTree = "<group>"; };
+		6978BF4A1ACEEA10003AFA6E /* Steve Jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Steve Jobs.jpg"; sourceTree = "<group>"; };
+		6978BF4B1ACEEA10003AFA6E /* Steve wozniak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Steve wozniak.jpg"; sourceTree = "<group>"; };
+		6978BF4D1ACEEA10003AFA6E /* Tim Cook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tim Cook.jpg"; sourceTree = "<group>"; };
+		6978BF601ACEEDB1003AFA6E /* TagviewTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagviewTableCell.xib; sourceTree = "<group>"; };
+		6978BF631ACEF4D0003AFA6E /* Suzanne Nitheesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Suzanne Nitheesh.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +121,7 @@
 		377C75CA1A3FF87100E46628 /* TagControl */ = {
 			isa = PBXGroup;
 			children = (
+				6978BF191ACED132003AFA6E /* resources */,
 				377C75F11A3FF8E700E46628 /* TagTextView */,
 				377C75CF1A3FF87100E46628 /* AppDelegate.h */,
 				377C75D01A3FF87100E46628 /* AppDelegate.m */,
@@ -128,8 +166,42 @@
 			children = (
 				377C75F21A3FF90800E46628 /* TagTextView.h */,
 				377C75F31A3FF90800E46628 /* TagTextView.m */,
+				6978BF3A1ACEE87B003AFA6E /* TagviewTableCell.h */,
+				6978BF3B1ACEE87B003AFA6E /* TagviewTableCell.m */,
+				6978BF601ACEEDB1003AFA6E /* TagviewTableCell.xib */,
 			);
 			name = TagTextView;
+			sourceTree = "<group>";
+		};
+		6978BF191ACED132003AFA6E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6978BF3D1ACEEA10003AFA6E /* resources */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6978BF3D1ACEEA10003AFA6E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6978BF631ACEF4D0003AFA6E /* Suzanne Nitheesh.jpg */,
+				6978BF3E1ACEEA10003AFA6E /* Bill Gates.jpg */,
+				6978BF3F1ACEEA10003AFA6E /* Daniel Martin.jpg */,
+				6978BF401ACEEA10003AFA6E /* default.jpg */,
+				6978BF411ACEEA10003AFA6E /* Harry Potter.jpg */,
+				6978BF421ACEEA10003AFA6E /* JohnSmith.jpg */,
+				6978BF431ACEEA10003AFA6E /* Mark Zuckerberg.jpg */,
+				6978BF441ACEEA10003AFA6E /* Samuel Nitheesh.jpg */,
+				6978BF451ACEEA10003AFA6E /* Saniya Mirza.jpg */,
+				6978BF461ACEEA10003AFA6E /* Sara Tom.jpg */,
+				6978BF471ACEEA10003AFA6E /* Sonal Nigam.jpg */,
+				6978BF481ACEEA10003AFA6E /* Stephan Dias.jpg */,
+				6978BF491ACEEA10003AFA6E /* Stephan Hawking.jpg */,
+				6978BF4A1ACEEA10003AFA6E /* Steve Jobs.jpg */,
+				6978BF4B1ACEEA10003AFA6E /* Steve wozniak.jpg */,
+				6978BF4D1ACEEA10003AFA6E /* Tim Cook.jpg */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +284,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6978BF521ACEEA10003AFA6E /* JohnSmith.jpg in Resources */,
+				6978BF591ACEEA10003AFA6E /* Stephan Hawking.jpg in Resources */,
+				6978BF551ACEEA10003AFA6E /* Saniya Mirza.jpg in Resources */,
+				6978BF5D1ACEEA10003AFA6E /* Tim Cook.jpg in Resources */,
+				6978BF621ACEEDB1003AFA6E /* TagviewTableCell.xib in Resources */,
+				6978BF4E1ACEEA10003AFA6E /* Bill Gates.jpg in Resources */,
+				6978BF581ACEEA10003AFA6E /* Stephan Dias.jpg in Resources */,
+				6978BF641ACEF4D0003AFA6E /* Suzanne Nitheesh.jpg in Resources */,
+				6978BF541ACEEA10003AFA6E /* Samuel Nitheesh.jpg in Resources */,
 				377C75D71A3FF87100E46628 /* Main.storyboard in Resources */,
+				6978BF4F1ACEEA10003AFA6E /* Daniel Martin.jpg in Resources */,
+				6978BF5A1ACEEA10003AFA6E /* Steve Jobs.jpg in Resources */,
 				377C75DC1A3FF87100E46628 /* LaunchScreen.xib in Resources */,
+				6978BF511ACEEA10003AFA6E /* Harry Potter.jpg in Resources */,
+				6978BF5B1ACEEA10003AFA6E /* Steve wozniak.jpg in Resources */,
+				6978BF571ACEEA10003AFA6E /* Sonal Nigam.jpg in Resources */,
+				6978BF501ACEEA10003AFA6E /* default.jpg in Resources */,
 				377C75D91A3FF87100E46628 /* Images.xcassets in Resources */,
+				6978BF561ACEEA10003AFA6E /* Sara Tom.jpg in Resources */,
+				6978BF531ACEEA10003AFA6E /* Mark Zuckerberg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +323,7 @@
 			files = (
 				377C75F41A3FF90800E46628 /* TagTextView.m in Sources */,
 				377C75D41A3FF87100E46628 /* ViewController.m in Sources */,
+				6978BF3C1ACEE87B003AFA6E /* TagviewTableCell.m in Sources */,
 				377C75D11A3FF87100E46628 /* AppDelegate.m in Sources */,
 				377C75CE1A3FF87100E46628 /* main.m in Sources */,
 			);
